@@ -18,6 +18,12 @@
     "type": "git",
     "url": "git+https://github.com/4Catalyzer/astroturf.git"
   },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ], 
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
